@@ -197,7 +197,7 @@ class UR():
 
         elif key == keyboard.KeyCode(char='f'):
             #print("joint_4 - ") 
-            self.position[3] = self.position[3]+0.1
+            self.position[3] = self.position[3]-0.1
             self.joint_traj(self.position[0],
                             self.position[1],
                             self.position[2],
